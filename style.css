@@ -1,0 +1,64 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  height: 80vh;
+  background: linear-gradient(black, green);
+}
+
+#title {
+  font-style: italic;
+  color: #373fff;
+  text-align: left;
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#search {
+  color: white;
+  background: Magenta;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: center;
+  font-size: 50px;
+  margin: 0px 40% 20px;
+  border: solid 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card {
+  background: black;
+  border: line;
+  border-color: #373fff;
+  margin-bottom: 10%;
+  width: 18rem;
+}
+
+.card-text {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card-title {
+  color: magenta;
+  font-family: Italic;
+}
